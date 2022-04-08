@@ -19,8 +19,8 @@ function App() {
           <a href="https://forms.gle/DzH5CZ1R2ZX4mm2S9">RSVP</a>
           {showGifts ? (
             <div className="gift-info">
-              <p>To be honest, we don't have a ton of material needs at the moment. If you'd like to give a gift, please click <a>here</a></p>
-              <p>We'd also happily accept gifts for our honeymoon! <a>here</a></p>
+              <p>To be honest, we don't have a ton of material needs at the moment. If you'd like to give a gift, please click <a href="">here</a></p>
+              <p>We'd also happily accept gifts for our honeymoon! <a href="https://venmo.com/code?user_id=2243801024299008025&created=1649459328.441108&printed=1">here</a></p>
             </div>
           ) : (
             <button onClick={() => setShowGifts(!showGifts)}>Gift Registry</button>
