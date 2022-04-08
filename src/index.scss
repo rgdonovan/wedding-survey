@@ -154,6 +154,7 @@ html {
   position: relative;
   display: block;
 
+
   &:after {
     content: "";
     position: absolute;
@@ -173,7 +174,8 @@ html {
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 420px;
+    width: 100%;
+    max-width: 420px;
 
     &__names {
       font-size: 7.8rem;
@@ -198,11 +200,12 @@ html {
 
 .info {
   background-color: rgb(62, 196, 196);
-  margin-top: 30px;
-  padding: 50px 0 40px;
+  padding: 50px 10px 0;
   font-family: 'Lato', sans-serif;
   line-height: 1.75;
   color: rgb(20 31 58);
+  max-width: 460px;
+  margin: 30px auto;
 
   span {
     font-size: 1rem;
@@ -243,21 +246,67 @@ html {
     font-weight: 300;
     font-size: 1.4rem;
     text-decoration: none;
-    max-width: 460px;
     margin: 18px auto 0;
+    cursor: pointer;
 
     &:hover {
       background-color: #ee6e9f;
     }
   }
+
+  .disabled {
+    background-color: rgb(215, 223, 230);
+    font-style: italic;
+
+    &:hover {
+      background-color: rgb(215, 223, 230);
+    }
+  }
+
+  button {
+    border: none;
+    width: 100%;
+    font-weight: 300;
+    font-family: 'Lato';
+    line-height: 1.75;
+  }
+
+  .gift-info {
+    background-color: rgb(44, 160, 160);
+    margin: 20px 0 10px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    font-weight: 300;
+    letter-spacing: 0.25px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+
+    a {
+
+      border: none;
+      box-shadow: none;
+      width: 30%;
+      margin: 10px auto;
+      min-width: 0;
+    }
+  }
 }
 
-button {
-  border: none;
-  width: 100%;
-  font-weight: 300;
-  font-family: 'Lato';
-  line-height: 1.75;
+@media (max-width: 430px) {
+  .top-image {
+    .title {
+      &__names {
+        font-size: 7rem;
+      }
+    }
+  }
+
+  .info {
+    &__datetime {
+      font-size: 2.5rem;
+      letter-spacing: -1px;
+    }
+  }
 }
 
 @media (min-width:600px) {
@@ -277,12 +326,14 @@ button {
     background-size: cover;
     background-position: 0 -140px;
     padding-top: 0;
-    border-radius: 10px;
+    border-radius: 100px;
+
 
     &:after {
       top: 50px;
       background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 1) 75%);
       border-radius: 10px;
+      border-radius: 100px;
     }
 
     .title {

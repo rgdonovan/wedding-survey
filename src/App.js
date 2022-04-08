@@ -11,22 +11,23 @@ function App() {
           <p className="title__text">are getting married!</p>
         </div>
       </div >
-      <body className="info">
+      <div className="info">
         <h2 className="info__datetime">July 03 2022 <span>at</span> 6 PM</h2>
         <h3 className="info__location">4000 Estancia Boulevard, Wesley Chapel, Florida</h3>
         <p className="info__text">We'd love to celebrate with you. Please RSVP below!</p>
         <nav>
           <a href="https://forms.gle/DzH5CZ1R2ZX4mm2S9">RSVP</a>
-          <button onClick={() => setShowGifts(!showGifts)}>Gift Registry</button>
-          <a href="https://forms.gle/DzH5CZ1R2ZX4mm2S9">Hotel link <span>(coming soon!)</span></a>
-          {showGifts && (
-            <div>
-              <p>To be honest we don't have a ton of material needs at the moment, but if you'd like to give a gift, please click the button below!</p>
-              <p>We'd also happily accept support of our honeymoon!</p>
+          {showGifts ? (
+            <div className="gift-info">
+              <p>To be honest, we don't have a ton of material needs at the moment. If you'd like to give a gift, please click <a>here</a></p>
+              <p>We'd also happily accept gifts for our honeymoon! <a>here</a></p>
             </div>
+          ) : (
+            <button onClick={() => setShowGifts(!showGifts)}>Gift Registry</button>
           )}
+          <a className="disabled">Hotel link <span>(coming soon!)</span></a>
         </nav>
-      </body>
+      </div>
     </div >
   );
 }
