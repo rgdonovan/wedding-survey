@@ -21,7 +21,7 @@ function App() {
         <h3 className="info__location">Estancia at Wiregrass<br /><span>4000 Estancia Blvd<br />Wesley Chapel, Florida</span></h3>
         <h2 className="info__deadline">Please RSVP by<br /> <span>April 30th</span></h2>
         <nav>
-          <a target="_blank" rel="noreferrer" href="https://forms.gle/DzH5CZ1R2ZX4mm2S9">RSVP</a>
+          <a target="_blank" rel="noreferrer" href="https://forms.gle/K7k3D13DiYFzpGiT6">RSVP</a>
           {showGifts ? (
             <div className="gift-info">
               <p>Our tiny apartment doesn't leave much room for gifts, but we'd appreciate anything on this list: <a target="_blank" href="https://www.giftster.com/gift/public/8bs8s/">here</a></p>
