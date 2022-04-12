@@ -216,7 +216,7 @@ html {
     font-family: 'Lato', sans-serif;
     font-size: 3rem;
     font-weight: 700;
-    margin: 15px 0 20px;
+    margin: 15px 0 30px;
 
     span {
       font-size: 1.35rem;
@@ -247,12 +247,15 @@ html {
 
   &__location {
     font-family: "Lato";
-    font-size: 1.32rem;
+    font-size: 1.4rem;
     font-weight: 400;
     margin-bottom: 30px;
     letter-spacing: 1.15px;
 
     span {
+      display: block;
+      font-size: 1.32rem;
+      margin-top: 4px;
       font-weight: 300;
     }
   }
