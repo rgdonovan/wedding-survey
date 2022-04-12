@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/wedding-survey/static/css/main.de6c10da.css",
-    "main.js": "/wedding-survey/static/js/main.1c656c67.js",
+    "main.css": "/wedding-survey/static/css/main.c96a59bc.css",
+    "main.js": "/wedding-survey/static/js/main.05b459cf.js",
     "static/media/proposal.jpg": "/wedding-survey/static/media/proposal.346c7c1e3b359599d0b8.jpg",
     "index.html": "/wedding-survey/index.html",
-    "main.de6c10da.css.map": "/wedding-survey/static/css/main.de6c10da.css.map",
-    "main.1c656c67.js.map": "/wedding-survey/static/js/main.1c656c67.js.map"
+    "main.c96a59bc.css.map": "/wedding-survey/static/css/main.c96a59bc.css.map",
+    "main.05b459cf.js.map": "/wedding-survey/static/js/main.05b459cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.de6c10da.css",
-    "static/js/main.1c656c67.js"
+    "static/css/main.c96a59bc.css",
+    "static/js/main.05b459cf.js"
   ]
 }
