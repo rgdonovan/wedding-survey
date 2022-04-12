@@ -21,16 +21,16 @@ function App() {
         <h3 className="info__location">Estancia at Wiregrass<br /><span>4000 Estancia Blvd<br />Wesley Chapel, Florida</span></h3>
         <h2 className="info__deadline">Please RSVP by<br /> <span>April 30th</span></h2>
         <nav>
-          <a href="https://forms.gle/DzH5CZ1R2ZX4mm2S9">RSVP</a>
+          <a target="_blank" rel="noreferrer" href="https://forms.gle/DzH5CZ1R2ZX4mm2S9">RSVP</a>
           {showGifts ? (
             <div className="gift-info">
               <p>Our tiny apartment doesn't leave much room for gifts, but we'd appreciate anything on this list: <a target="_blank" href="https://www.giftster.com/gift/public/8bs8s/">here</a></p>
-              <p>We'd also happily accept &#128184; for our future home! <a target="_blank" href="https://venmo.com/code?user_id=2243801024299008025&created=1649459328.441108&printed=1">here</a></p>
+              <p>We'd also happily accept &#128184; for our future home! <a target="_blank" rel="noreferrer" href="https://venmo.com/code?user_id=2243801024299008025&created=1649459328.441108&printed=1">here</a></p>
             </div>
           ) : (
             <button onClick={() => setShowGifts(!showGifts)}>Gift Registry</button>
           )}
-          <a className="disabled" target="_blank">Hotel link <span>(coming soon!)</span></a>
+          <a href="https://www.marriott.com/events/start.mi?id=1649796957511&key=GRP" target="_blank" rel="noreferrer">Hotel link</a>
         </nav>
       </div>
     </div >
