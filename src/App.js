@@ -4,7 +4,6 @@ function App() {
   const [showGifts, setShowGifts] = useState(false);
   return (
     <div className="app">
-
       <div className="top-image">
         <div className="title">
           <h1 className="title__names"><span>Regina</span> <br />& <span>Jimmy</span></h1>
@@ -25,7 +24,8 @@ function App() {
           <a href="https://forms.gle/DzH5CZ1R2ZX4mm2S9">RSVP</a>
           {showGifts ? (
             <div className="gift-info">
-              <p>Our tiny apartment doesn't leave much room for gifts, but we'd appreciate &#128184; for our future home! <a href="https://venmo.com/code?user_id=2243801024299008025&created=1649459328.441108&printed=1">here</a></p>
+              <p>Our tiny apartment doesn't leave much room for gifts, but we'd appreciate anything on this list: <a href="https://www.giftster.com/gift/public/8bs8s/">here</a></p>
+              <p>We'd also happily accept &#128184; for our future home! <a href="https://venmo.com/code?user_id=2243801024299008025&created=1649459328.441108&printed=1">here</a></p>
             </div>
           ) : (
             <button onClick={() => setShowGifts(!showGifts)}>Gift Registry</button>
