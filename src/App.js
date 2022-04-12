@@ -25,7 +25,7 @@ function App() {
           {showGifts ? (
             <div className="gift-info">
               <p>Our tiny apartment doesn't leave much room for gifts, but we'd appreciate anything on this list: <a target="_blank" href="https://www.giftster.com/gift/public/8bs8s/">here</a></p>
-              <p>We'd also happily accept &#128184; for our future home! <a target="_blank" rel="noreferrer" href="https://venmo.com/code?user_id=2243801024299008025&created=1649459328.441108&printed=1">here</a></p>
+              <p>We'd also happily accept &#128184; towards a new home! <a target="_blank" rel="noreferrer" href="https://venmo.com/code?user_id=2243801024299008025&created=1649459328.441108&printed=1">here</a></p>
             </div>
           ) : (
             <button onClick={() => setShowGifts(!showGifts)}>Gift Registry</button>
