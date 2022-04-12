@@ -12,12 +12,13 @@ function App() {
       </div >
       <div className="info">
         <p className="info__top">Its a short turnaround, but <br />we'd love to celebrate with you!</p>
-        <h2 className="info__date">07 / 03 / 22</h2>
-        <h3 className="info__location">4000 Estancia Boulevard, Wesley Chapel, Fl</h3>
+        <h2 className="info__date">July 03<span> rd</span>, 2022</h2>
+
         <div className="timebox">
           <h2 className="timebox__time"><span>Ceremony </span><br />5:30 PM</h2>
           <h2 className="timebox__time"><span> Reception </span><br />6:00 PM</h2>
         </div>
+        <h3 className="info__location">4000 Estancia Blvd, Wesley Chapel, Fl</h3>
         <h2 className="info__deadline">Please RSVP by<br /> <span>April 30th</span></h2>
         <nav>
           <a href="https://forms.gle/DzH5CZ1R2ZX4mm2S9">RSVP</a>
